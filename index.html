@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <script src="https://kit.fontawesome.com/8109efb107.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Header section -->
+   <header class="max-w-[1320px] mx-auto flex justify-between items-center py-4 px-[4%]">
+    <div>
+      <img src="./images/logo-header.png" alt="">
+    </div>
+    <nav class="hidden md:block">
+      <ul class="flex items-center gap-8 cursor-pointer">
+        <li class="text-[20px] text-[#111111] hover:text-[#179800] ">Products</li>
+        <li class="text-[20px] text-[#111111] hover:text-[#179800] ">Services</li>
+        <li class="text-[20px] text-[#111111] hover:text-[#179800] ">Contact Us</li>
+      </ul>
+    </nav>
+    <div class="md:flex items-center gap-4 hidden">
+      <button><i class="fa-solid fa-magnifying-glass cursor-pointer"></i></button>
+      <span><i class="fa-solid fa-cart-shopping cursor-pointer"></i></span>
+      <button class="border-1 border-[#179800] rounded-[8px] text-[#111111] px-[30px] py-[10px] text-[20px] cursor-pointer">Login</button>
+      <button class="bg-[#179800] rounded-[8px] text-[#ffffff] px-[30px] py-[10px] text-[20px] cursor-pointer">Register</button>
+    </div>
+    <div class="text-[#179800]">
+      <i class="fa-solid fa-bars cursor-pointer"></i>
+    </div>
+   </header>
+    <!-- Hero section -->
+     <section class=" bg-gradient-to-b from-[#ffffff] from-0% via-[#F9F8F5] viya-[30%] to-[#F2EFE8] to-100%">
+      <div class="max-w-[1320px] mx-auto flex items-center flex-col md:px-0 px-[4%]">
+        <div>
+          <h1 class="lg:text-[56px] text-[32px] font-semibold text-center mt-[80px]">Freshness <span class="text-[#179800]">You Can <br>
+            Count</span> On, Prices You’ll Love!</h1>
+            <p class="text-[20px] text-[#111111] my-[40px] text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+        </div>
+        <div class="mb-[136px]">
+          <img src="./images/hero-vegetables.png" alt="" srcset="">
+        </div>
+      </div>
+      
+     </section>
+
+      <!-- Services section -->
+       <section>
+        <div class="max-w-[1320px] mx-auto md:px-0 px-[4%]">
+          <h1 class="text-[36px] font-semibold text-[#179800]">Services</h1>
+        <div class="flex md:flex-row flex-col items-center justify-center gap-8 py-[80px]">
+          <div class="flex flex-col items-center bg-[#F2EFE8] rounded-[16px] p-6">
+            <div class="size-[150px] rounded-full bg-white flex justify-center items-center">
+              <img src="./images/service.png" class="size-[100px]" alt="" srcset="">
+            </div>
+            
+            <h1 class=" text-[24px] font-semibold text-black my-[14px]">24/7 Services </h1>
+            <p class=" text-[20px] font-normal text-[#545250] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+          <div class="flex flex-col items-center bg-[#F2EFE8] rounded-[16px] p-6">
+            <div class="size-[150px] rounded-full bg-white flex justify-center items-center">
+              <img src="./images/delivery.png" class="size-[100px]" alt="" srcset="">
+            </div>
+            
+            <h1 class=" text-[24px] font-semibold text-black my-[14px]">Fast Delivery </h1>
+            <p class=" text-[20px] font-normal text-[#545250] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+          <div class="flex flex-col items-center bg-[#F2EFE8] rounded-[16px] p-6">
+            <div class="size-[150px] rounded-full bg-white flex justify-center items-center">
+              <img src="./images/healthy.png" class="size-[100px]" alt="" srcset="">
+            </div>
+            
+            <h1 class=" text-[24px] font-semibold text-black my-[14px]">Healthy Products  </h1>
+            <p class=" text-[20px] font-normal text-[#545250] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+        </div>
+        </div>
+        
+       </section>
+
+       <!-- Products section -->
+        <section class="bg-[#F2EFE8] py-[80px]">
+          <div class="max-w-[1320px] mx-auto  md:px-0 px-[4%]">
+            <h1 class="text-[36px] font-semibold text-[#179800] mb-[30px]">Popular Products</h1>
+          <div class="flex md:flex-row flex-col  gap-8 ">
+            <div class="bg-gradient-to-b from-[#53DB3A] from-100% to-[#ffffff] to-0% pl-6 relative rounded-md">
+              <h1 class="text-[32px] font-medium text-white mt-[40px]">30% Off</h1>
+              <p class="text-[16px] font-normal text-[#545250] mt-[10px] mb-[20px] w-3/4">Discover a world of treats, toys, and essentials handpicked for</p>
+              <button class="py-[10px] px-[30px] rounded-[8px] bg-white">Buy Now</button>
+              <div class="absolute bottom-0 right-6">
+                <img src="./images/vegetable-offer.png" class="w-full" alt="">
+              </div>
+            </div>
+            <div class="grid md:grid-cols-3 grid-cols-2 gap-4 flex-1">
+              <div class="flex items-center gap-4 p-4 bg-white rounded-[10px]">
+                <div class="bg-[#EFEBE3] rounded-[10px] ">
+                  <img src="./images/onion.png" alt="">
+                </div>
+                <div>
+                  <span class="text-yellow-500"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-[16px] font-normal">4.5</span>
+                  <h2 class="text-[20px] font-medium text-black ">Potato 1 KG</h2>
+                  <h3 class="text-[16px] font-normal">$39.99</h3>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-4 bg-white rounded-[10px]">
+                <div class="bg-[#EFEBE3] rounded-[10px] ">
+                  <img src="./images/tomato.png" alt="">
+                </div>
+                <div>
+                  <span class="text-yellow-500"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-[16px] font-normal">4.5</span>
+                  <h2 class="text-[20px] font-medium text-black ">Potato 1 KG</h2>
+                  <h3 class="text-[16px] font-normal">$39.99</h3>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-4 bg-white rounded-[10px]">
+                <div class="bg-[#EFEBE3] rounded-[10px] ">
+                  <img src="./images/potato.png" alt="">
+                </div>
+                <div>
+                  <span class="text-yellow-500"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-[16px] font-normal">4.5</span>
+                  <h2 class="text-[20px] font-medium text-black ">Potato 1 KG</h2>
+                  <h3 class="text-[16px] font-normal">$39.99</h3>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-4 bg-white rounded-[10px]">
+                <div class="bg-[#EFEBE3] rounded-[10px] ">
+                  <img src="./images/potato.png" alt="">
+                </div>
+                <div>
+                  <span class="text-yellow-500"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-[16px] font-normal">4.5</span>
+                  <h2 class="text-[20px] font-medium text-black ">Potato 1 KG</h2>
+                  <h3 class="text-[16px] font-normal">$39.99</h3>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-4 bg-white rounded-[10px]">
+                <div class="bg-[#EFEBE3] rounded-[10px] ">
+                  <img src="./images/onion.png" alt="">
+                </div>
+                <div>
+                  <span class="text-yellow-500"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-[16px] font-normal">4.5</span>
+                  <h2 class="text-[20px] font-medium text-black ">Potato 1 KG</h2>
+                  <h3 class="text-[16px] font-normal">$39.99</h3>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-4 bg-white rounded-[10px]">
+                <div class="bg-[#EFEBE3] rounded-[10px] ">
+                  <img src="./images/tomato.png" alt="">
+                </div>
+                <div>
+                  <span class="text-yellow-500"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-[16px] font-normal">4.5</span>
+                  <h2 class="text-[20px] font-medium text-black ">Potato 1 KG</h2>
+                  <h3 class="text-[16px] font-normal">$39.99</h3>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-4 bg-white rounded-[10px]">
+                <div class="bg-[#EFEBE3] rounded-[10px] ">
+                  <img src="./images/tomato.png" alt="">
+                </div>
+                <div>
+                  <span class="text-yellow-500"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-[16px] font-normal">4.5</span>
+                  <h2 class="text-[20px] font-medium text-black ">Potato 1 KG</h2>
+                  <h3 class="text-[16px] font-normal">$39.99</h3>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-4 bg-white rounded-[10px]">
+                <div class="bg-[#EFEBE3] rounded-[10px] ">
+                  <img src="./images/potato.png" alt="">
+                </div>
+                <div>
+                  <span class="text-yellow-500"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-[16px] font-normal">4.5</span>
+                  <h2 class="text-[20px] font-medium text-black ">Potato 1 KG</h2>
+                  <h3 class="text-[16px] font-normal">$39.99</h3>
+                </div>
+              </div>
+              <div class="md:flex items-center gap-4 p-4 bg-white rounded-[10px] hidden">
+                <div class="bg-[#EFEBE3] rounded-[10px] ">
+                  <img src="./images/onion.png" alt="">
+                </div>
+                <div>
+                  <span class="text-yellow-500"><i class="fa-solid fa-star"></i></span>
+                  <span class="text-[16px] font-normal">4.5</span>
+                  <h2 class="text-[20px] font-medium text-black ">Potato 1 KG</h2>
+                  <h3 class="text-[16px] font-normal">$39.99</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          
+        </section>
+
+        <!-- Offer Section -->
+         <section class="max-w-[1320px] mx-auto py-[80px] mb-[200px]  md:px-0 px-[4%]">
+          <h1 class="text-[36px] font-semibold text-[#179800] mb-[40px]">Arrival & Offers</h1>
+          <div class="flex md:flex-row flex-col gap-8">
+            <div class="bg-[#115414] rounded-[20px] flex gap-4 px-[30px]">
+              <div >
+                <img src="./images/dawat-logo.png" alt="" class="my-[30px]">
+                <h2 class="py-[15px] px-[34px] bg-[#63B76D] rounded-[14px] text-[24px] text-white font-normal">Cook Exotic Dishes</h2>
+                <h3 class="text-[40px] font-normal text-white mt-[15px]">UP to <span class="font-bold">20% OFF</span> </h3>
+              </div>
+              <div class="mt-[20px] ml-8">
+                <img src="./images/dawat-mock-up.png" alt="">
+              </div>
+            </div>
+            <div class="bg-[#102861] rounded-[20px] flex gap-4 px-[30px]">
+              <div >
+                <img src="./images/india-gate-logo.png" alt="" class="mt-[30px] mb-[15px]">
+                <h2 class="py-[10px] px-[34px] bg-[#63B76D] rounded-[14px] text-[24px] text-white font-normal">Cook Exotic Dishes</h2>
+                <h3 class="text-[40px] font-normal text-white mt-[15px] ">UP to <span class="font-bold ">20% OFF</span> </h3>
+              </div>
+              <div>
+                <img src="./images/india-gate-mock-up.png" alt="">
+              </div>
+            </div>
+          </div>
+          
+         </section>
+
+          
+
+          <!-- Footer Section -->
+           <section class="bg-[#179800]  md:pt-[200px] pt-[300px] md:px-0 px-[4%]">
+            <div class="relative flex items-center justify-center">
+              <div class="max-w-[1320px] mx-auto py-[80px] absolute md:top-[-480px] top-[-620px]">
+                <div class="bg-[#EFEBE3] flex md:flex-row flex-col items-center justify-center gap-8 p-8 rounded-[20px]">
+                  <div>
+                    <img src="./images/vegetable-busket.png" alt="">
+                  </div>
+                  <div>
+                    <h1 class="text-[36px] font-semibold text-black">Get Grocery News!</h1>
+                    <h2 class="text-[20px] font-normal text-black my-[20px]">Exclusive training tips, ticks, product deals and more.</h2>
+                    <input type="text" placeholder="Enter your email..." class="w-full py-[20px] px-[20px] rounded-[8px] border-[1px] border-[#ffffff] bg-white">
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+            <div class="flex md:flex-row flex-col md:items-center items-start justify-between max-w-[1320px] mx-auto py-[80px] gap-8">
+              <div>
+                <img src="./images/logo-footer.png" alt="">
+                <p class="text-[20px] font-normal text-white mt-[16px]">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+              </div>
+              <div>
+                <ul class="flex flex-col gap-4 text-white cursor-pointer">
+                  <li class="text-[20px] font-normal text-white mt-[16px]">Product</li>
+                  <li class="text-[20px] font-normal text-white mt-[16px]">Services</li>
+                  <li class="text-[20px] font-normal text-white mt-[16px]">Contact Us</li>
+                </ul>
+              </div>
+              <div>
+                <span class="text-[20px] font-normal text-white mt-[16px]">Follow Us</span>
+                <div class="text-[20px] font-normal text-white mt-[16px] flex gap-4 cursor-pointer">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+            
+           </section>
+</body>
+</html>
