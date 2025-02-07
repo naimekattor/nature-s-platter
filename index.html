@@ -9,7 +9,7 @@
 </head>
 <body>
   <!-- Header section -->
-   <header class="max-w-[1320px] mx-auto flex justify-between items-center py-4 px-[4%]">
+   <header class="lg:max-w-[1320px] w-full mx-auto flex justify-between items-center py-4 px-[4%]">
     <div>
       <img src="./images/logo-header.png" alt="">
     </div>
@@ -23,16 +23,16 @@
     <div class="md:flex items-center gap-4 hidden">
       <button><i class="fa-solid fa-magnifying-glass cursor-pointer"></i></button>
       <span><i class="fa-solid fa-cart-shopping cursor-pointer"></i></span>
-      <button class="border-1 border-[#179800] rounded-[8px] text-[#111111] px-[30px] py-[10px] text-[20px] cursor-pointer">Login</button>
+      <button class="border-1 border-[#179800] rounded-[8px] text-[#111111] px-[30px] py-[10px] text-[20px] cursor-pointer  hover:bg-[#179800] hover:scale-105 hover:text-white duration-300 ease-in-out">Login</button>
       <button class="bg-[#179800] rounded-[8px] text-[#ffffff] px-[30px] py-[10px] text-[20px] cursor-pointer">Register</button>
     </div>
-    <div class="text-[#179800]">
+    <div class="text-[#179800] md:hidden block">
       <i class="fa-solid fa-bars cursor-pointer"></i>
     </div>
    </header>
     <!-- Hero section -->
      <section class=" bg-gradient-to-b from-[#ffffff] from-0% via-[#F9F8F5] viya-[30%] to-[#F2EFE8] to-100%">
-      <div class="max-w-[1320px] mx-auto flex items-center flex-col md:px-0 px-[4%]">
+      <div class="lg:max-w-[1320px] w-full mx-auto flex items-center flex-col md:px-0 px-[4%]">
         <div>
           <h1 class="lg:text-[56px] text-[32px] font-semibold text-center mt-[80px]">Freshness <span class="text-[#179800]">You Can <br>
             Count</span> On, Prices You’ll Love!</h1>
@@ -47,7 +47,7 @@
 
       <!-- Services section -->
        <section>
-        <div class="max-w-[1320px] mx-auto md:px-0 px-[4%]">
+        <div class="lg:max-w-[1320px] w-full mx-auto md:px-0 px-[4%]">
           <h1 class="text-[36px] font-semibold text-[#179800]">Services</h1>
         <div class="flex md:flex-row flex-col items-center justify-center gap-8 py-[80px]">
           <div class="flex flex-col items-center bg-[#F2EFE8] rounded-[16px] p-6">
@@ -81,13 +81,13 @@
 
        <!-- Products section -->
         <section class="bg-[#F2EFE8] py-[80px]">
-          <div class="max-w-[1320px] mx-auto  md:px-0 px-[4%]">
+          <div class="lg:max-w-[1320px] w-full mx-auto  md:px-0 px-[4%]">
             <h1 class="text-[36px] font-semibold text-[#179800] mb-[30px]">Popular Products</h1>
           <div class="flex md:flex-row flex-col  gap-8 ">
             <div class="bg-gradient-to-b from-[#53DB3A] from-100% to-[#ffffff] to-0% pl-6 relative rounded-md">
               <h1 class="text-[32px] font-medium text-white mt-[40px]">30% Off</h1>
               <p class="text-[16px] font-normal text-[#545250] mt-[10px] mb-[20px] w-3/4">Discover a world of treats, toys, and essentials handpicked for</p>
-              <button class="py-[10px] px-[30px] rounded-[8px] bg-white">Buy Now</button>
+              <button class="py-[10px] px-[30px] rounded-[8px] bg-white md:mb-0 mb-[200px]">Buy Now</button>
               <div class="absolute bottom-0 right-6">
                 <img src="./images/vegetable-offer.png" class="w-full" alt="">
               </div>
@@ -199,26 +199,26 @@
         </section>
 
         <!-- Offer Section -->
-         <section class="max-w-[1320px] mx-auto py-[80px] mb-[200px]  md:px-0 px-[4%]">
+         <section class="lg:max-w-[1320px] w-full mx-auto py-[80px] mb-[200px]  md:px-0 px-[4%]">
           <h1 class="text-[36px] font-semibold text-[#179800] mb-[40px]">Arrival & Offers</h1>
-          <div class="flex md:flex-row flex-col gap-8">
-            <div class="bg-[#115414] rounded-[20px] flex gap-4 px-[30px]">
-              <div >
-                <img src="./images/dawat-logo.png" alt="" class="my-[30px]">
-                <h2 class="py-[15px] px-[34px] bg-[#63B76D] rounded-[14px] text-[24px] text-white font-normal">Cook Exotic Dishes</h2>
-                <h3 class="text-[40px] font-normal text-white mt-[15px]">UP to <span class="font-bold">20% OFF</span> </h3>
+          <div class="flex md:flex-row flex-col gap-8 items-center justify-center">
+            <div class="bg-[#115414] rounded-[20px] flex md:gap-4 gap-2 px-[30px] p-4">
+              <div class="flex-1 flex flex-col items-center gap-4">
+                <img src="./images/dawat-logo.png" alt="" class="">
+                <h2 class="md:py-[15px] py-[12px] md:px-[34px] px-[18px] bg-[#63B76D] rounded-[14px] md:text-[24px] text-[12px] text-white font-normal ">Cook Exotic Dishes</h2>
+                <h3 class="md:text-[40px] text-[22px] font-normal text-white mt-[15px]">UP to <span class="font-bold">20% OFF</span> </h3>
               </div>
-              <div class="mt-[20px] ml-8">
+              <div class="md:mt-[20px] mt-0 md:ml-8 ml-0 flex-1">
                 <img src="./images/dawat-mock-up.png" alt="">
               </div>
             </div>
-            <div class="bg-[#102861] rounded-[20px] flex gap-4 px-[30px]">
-              <div >
+            <div class="bg-[#102861] rounded-[20px] flex md:gap-4 gap-2 px-[30px] p-4">
+              <div class="flex-1">
                 <img src="./images/india-gate-logo.png" alt="" class="mt-[30px] mb-[15px]">
-                <h2 class="py-[10px] px-[34px] bg-[#63B76D] rounded-[14px] text-[24px] text-white font-normal">Cook Exotic Dishes</h2>
-                <h3 class="text-[40px] font-normal text-white mt-[15px] ">UP to <span class="font-bold ">20% OFF</span> </h3>
+                <h2 class="md:py-[10px] py-[15px]  md:px-[34px] px-[18px] bg-[#63B76D] rounded-[14px] md:text-[24px] text-[12px] text-white font-normal">Cook Exotic Dishes</h2>
+                <h3 class="md:text-[40px] text-[22px] font-normal text-white mt-[15px] ">UP to <span class="font-bold ">20% OFF</span> </h3>
               </div>
-              <div>
+              <div class="flex-1">
                 <img src="./images/india-gate-mock-up.png" alt="">
               </div>
             </div>
@@ -231,7 +231,7 @@
           <!-- Footer Section -->
            <section class="bg-[#179800]  md:pt-[200px] pt-[300px] md:px-0 px-[4%]">
             <div class="relative flex items-center justify-center">
-              <div class="max-w-[1320px] mx-auto py-[80px] absolute md:top-[-480px] top-[-620px]">
+              <div class="lg:max-w-[1320px] w-full mx-auto py-[80px] absolute md:top-[-480px] top-[-620px]">
                 <div class="bg-[#EFEBE3] flex md:flex-row flex-col items-center justify-center gap-8 p-8 rounded-[20px]">
                   <div>
                     <img src="./images/vegetable-busket.png" alt="">
@@ -246,7 +246,7 @@
               </div>
             </div>
             
-            <div class="flex md:flex-row flex-col md:items-center items-start justify-between max-w-[1320px] mx-auto py-[80px] gap-8">
+            <div class="flex md:flex-row flex-col md:items-center items-start justify-between lg:max-w-[1320px] w-full mx-auto py-[80px] gap-8">
               <div>
                 <img src="./images/logo-footer.png" alt="">
                 <p class="text-[20px] font-normal text-white mt-[16px]">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
